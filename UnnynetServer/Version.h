@@ -1,0 +1,1 @@
+#define DODGE_SERVER_VERSION "0.1"

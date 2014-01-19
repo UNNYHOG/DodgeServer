@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TcpAsyncClientBase.cpp">
+      <Filter>Tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpAsyncClient.cpp">
+      <Filter>Tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSession.cpp">
+      <Filter>Tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpAsyncServer.cpp">
+      <Filter>Tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpMessage.cpp">
+      <Filter>Tcp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.h" />
+    <ClInclude Include="TcpAsyncClientBase.h">
+      <Filter>Tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpAsyncClient.h">
+      <Filter>Tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSession.h">
+      <Filter>Tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpAsyncServer.h">
+      <Filter>Tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpMessage.h">
+      <Filter>Tcp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tcp">
+      <UniqueIdentifier>{7337aef2-add7-4ff2-bedf-2709cd22f8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Udp">
+      <UniqueIdentifier>{420833a3-9404-4750-8709-2a91cd63b9e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
